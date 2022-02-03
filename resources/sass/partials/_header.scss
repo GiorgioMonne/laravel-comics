@@ -1,0 +1,30 @@
+.header{
+    // width: 100%;
+    background-color: lightblue;
+
+    .container{
+        display: flex;
+
+        .logo img{
+            height: 50px;
+            margin: 20px auto;
+        }
+    }
+
+    nav ul{
+        display: flex;
+        
+        li{
+            margin: 30px 10px;
+            list-style: none;
+            
+            
+        }
+    }
+
+    .jumbo{
+        height: 300px;
+        width: 100%;
+        background-color: lightgreen;
+    }
+}

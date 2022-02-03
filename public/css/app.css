@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: lightblue;
+}
+
+.header .container {
+  display: flex;
+}
+
+.header .container .logo img {
+  height: 50px;
+  margin: 20px auto;
+}
+
+.header nav ul {
+  display: flex;
+}
+
+.header nav ul li {
+  margin: 30px 10px;
+  list-style: none;
+}
+
+.header .jumbo {
+  height: 300px;
+  width: 100%;
+  background-color: lightgreen;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
