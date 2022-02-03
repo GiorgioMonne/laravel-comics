@@ -17,7 +17,6 @@ body {
 .header {
   background-color: lightblue;
 }
-
 .header .line {
   height: 40px;
   background-color: lightpink;
@@ -25,7 +24,6 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
-
 .header .line .centrato {
   height: 100%;
   width: 1000px;
@@ -34,48 +32,39 @@ body {
   display: flex;
   justify-content: flex-end;
 }
-
 .header .line .piccolo {
   font-size: 10px;
   margin: auto 20px;
 }
-
 .header .container {
   display: flex;
   justify-content: center;
 }
-
 .header .container .logo img {
   height: 50px;
   margin: 20px 70px;
 }
-
 .header nav ul {
   display: flex;
   height: 100%;
 }
-
 .header nav ul li {
   margin: auto 10px;
   list-style: none;
 }
-
 .header nav ul a {
   font-size: 13px;
   font-weight: bold;
   text-decoration: none;
 }
-
 .header .jumbo {
   width: 100%;
   background-color: lightgreen;
 }
-
 .header .jumbo .div {
   height: 350px;
   width: 100%;
 }
-
 .header .jumbo .div img {
   height: 100%;
   width: 100%;
@@ -88,36 +77,30 @@ body {
 main {
   background-color: #252525;
 }
-
 main .cards {
   width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
-
 main .cards .card {
   width: calc(16.6666666667% - 22px);
   margin: 10px;
   color: white;
 }
-
 main .cards .card img {
   height: 173px;
   width: 173px;
 }
-
 main .cards .card h3 {
   text-transform: uppercase;
   font-size: 13px;
 }
-
 main .load {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-
 main .load .load-btn {
   padding: 5px 25px;
   font-size: 10px;
@@ -126,14 +109,12 @@ main .load .load-btn {
   background-color: #418bec;
   margin: 10px auto;
 }
-
 main .icons {
   width: 100%;
   display: flex;
   justify-content: center;
   background-color: #208cf1;
 }
-
 main .icons .box {
   height: 100px;
   width: 230px;
@@ -141,11 +122,9 @@ main .icons .box {
   justify-content: center;
   align-items: center;
 }
-
 main .icons .box img {
   height: 35px;
 }
-
 main .icons .box h3 {
   color: white;
   font-weight: bold;
@@ -153,9 +132,41 @@ main .icons .box h3 {
   font-size: 10px;
 }
 
+.footer {
+  height: 500px;
+  width: 100%;
+  background-color: #272626;
+}
+.footer .container {
+  height: 300px;
+}
+.footer .container nav {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .container nav ul li {
+  list-style: none;
+  font-size: 12px;
+  padding: 3px;
+  margin-right: 50px;
+}
+.footer .container nav ul li a {
+  color: lightgray;
+  list-style: none;
+  text-decoration: none;
+}
+.footer .container nav h2 {
+  color: white;
+  font-size: 16px;
+  margin: 10px 0;
+}
+.footer .container-due {
+  width: 1200px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
