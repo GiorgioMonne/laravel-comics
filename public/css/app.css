@@ -1,4 +1,4 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Source+Sans+Pro:wght@700&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,32 +10,147 @@
   margin: 0 auto;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .header {
   background-color: lightblue;
 }
 
+.header .line {
+  height: 40px;
+  background-color: lightpink;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header .line .centrato {
+  height: 100%;
+  width: 1000px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header .line .piccolo {
+  font-size: 10px;
+  margin: auto 20px;
+}
+
 .header .container {
   display: flex;
+  justify-content: center;
 }
 
 .header .container .logo img {
   height: 50px;
-  margin: 20px auto;
+  margin: 20px 70px;
 }
 
 .header nav ul {
   display: flex;
+  height: 100%;
 }
 
 .header nav ul li {
-  margin: 30px 10px;
+  margin: auto 10px;
   list-style: none;
 }
 
+.header nav ul a {
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .header .jumbo {
-  height: 300px;
   width: 100%;
   background-color: lightgreen;
+}
+
+.header .jumbo .div {
+  height: 350px;
+  width: 100%;
+}
+
+.header .jumbo .div img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center top;
+     object-position: center top;
+}
+
+main {
+  background-color: #252525;
+}
+
+main .cards {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .cards .card {
+  width: calc(16.6666666667% - 22px);
+  margin: 10px;
+  color: white;
+}
+
+main .cards .card img {
+  height: 173px;
+  width: 173px;
+}
+
+main .cards .card h3 {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+main .load {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main .load .load-btn {
+  padding: 5px 25px;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: #418bec;
+  margin: 10px auto;
+}
+
+main .icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #208cf1;
+}
+
+main .icons .box {
+  height: 100px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .icons .box img {
+  height: 35px;
+}
+
+main .icons .box h3 {
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+  font-size: 10px;
 }
 
 * {
